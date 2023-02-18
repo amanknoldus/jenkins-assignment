@@ -31,14 +31,8 @@ public class ReducedArrayForm {
     public static void main (String args[]) {
 
         int[] inputArray = {10,15,24,82,5,9,13};
-        
         int arrayCount = 0;
-
-        System.out.println("Enter your items:");
-        for (int takeInputs: inputArray) {
-            inputArray[arrayCount] = userInput.nextInt();
-            arrayCount++;
-        }
+        
         //calling functions of reducing and printing transformed array.
         reduceMethod(inputArray);
         printReducedForm(inputArray);
