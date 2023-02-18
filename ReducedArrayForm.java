@@ -30,7 +30,7 @@ public class ReducedArrayForm {
     //main class in which asking user to enter size and elements of array.
     public static void main (String args[]) {
 
-        int[] inputArray = {10,15,24,82,5,9,13};
+        int[] inputArray = {8,35,45,2,5,9,13};
         int arrayCount = 0;
         
         //calling functions of reducing and printing transformed array.
