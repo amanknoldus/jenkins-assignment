@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Scanner;
 import  java.util.HashMap;
 public class ReducedArrayForm {
     //function to transform the array in reduced form.
@@ -31,11 +30,8 @@ public class ReducedArrayForm {
     //main class in which asking user to enter size and elements of array.
     public static void main (String args[]) {
 
-        Scanner userInput = new Scanner(System.in);
-        System.out.println("How many items you want:");
-        int arraySize = userInput.nextInt();
-
-        int[] inputArray = new int[arraySize];
+        int[] inputArray = {10,15,24,82,5,9,13};
+        
         int arrayCount = 0;
 
         System.out.println("Enter your items:");
