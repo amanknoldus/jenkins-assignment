@@ -29,7 +29,7 @@ public class ReducedArrayForm {
     }
     //main class in which asking user to enter size and elements of array.
     public static void main (String args[]) {
-          System.out.println("Auto Trigger Build: ")
+          System.out.println("Auto Trigger Build: ");
         int[] inputArray = {8,3,5,40,7,9,13};
         int arrayCount = 0;
         
