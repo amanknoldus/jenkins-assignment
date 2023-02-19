@@ -24,7 +24,7 @@ public class ReducedArrayForm {
     public static void printReducedForm(int[] inputArray) {
         System.out.print("Reduced Array Form is: ");
         for (int printElement: inputArray) {
-            System.out.print(printElement+" ");
+            System.out.print(printElement+"  ");
         }
     }
     //main class in which asking user to enter size and elements of array.
